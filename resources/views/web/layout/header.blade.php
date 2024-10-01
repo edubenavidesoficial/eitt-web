@@ -7,20 +7,20 @@
     <!-- Title -->
     <title> Eitt - Educación de Innovación</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+    <link rel="shortcut icon" href="{{asset('assets/images/logo/favicon.png')}}">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
     <!-- select2 -->
-    <link rel="stylesheet" href="assets/css/select2.min.css">
+    <link rel="stylesheet" href="{{asset('assets/css/select2.min.css')}}">
     <!-- Slick -->
-    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="{{asset('assets/css/slick.css')}}">
     <!-- Slick -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}">
     <!-- jquery-ui -->
-    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="{{asset('assets/css/jquery-ui.css')}}">
     <!-- Main css -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
 </head> 
 <body>
     
@@ -50,50 +50,46 @@
 <div class="mobile-menu scroll-sm d-lg-none d-block">
     <button type="button" class="close-button"><i class="ph ph-x"></i> </button>
     <div class="mobile-menu__inner">
-        <a href="index.html" class="mobile-menu__logo">
+        <a href="/" class="mobile-menu__logo">
             <img src="assets/images/logo/logo.png" alt="Logo">
         </a>
         <div class="mobile-menu__menu">
             
 <ul class="nav-menu flex-align nav-menu--mobile">
     <li class="nav-menu__item has-submenu">
-        <a href="javascript:void(0)" class="nav-menu__link">Home</a>
+        <a href="javascript:void(0)" class="nav-menu__link">Inicio</a>
         <ul class="nav-submenu scroll-sm">
             <li class="nav-submenu__item">
-                <a href="index.html" class="nav-submenu__link hover-bg-neutral-30"> Home One</a>
+                <a href="nosotros" class="nav-submenu__link hover-bg-neutral-30"> Nosotros</a>
             </li>
             <li class="nav-submenu__item">
-                <a href="index-2.html" class="nav-submenu__link hover-bg-neutral-30"> Home Two</a>
+                <a href="preguntas" class="nav-submenu__link hover-bg-neutral-30"> Pregúntas</a>
             </li>
-            <li class="nav-submenu__item">
-                <a href="index-3.html" class="nav-submenu__link hover-bg-neutral-30"> Home Three</a>
-            </li>
+           
         </ul>
     </li>
     <li class="nav-menu__item has-submenu">
-        <a href="javascript:void(0)" class="nav-menu__link">Courses</a>
+        <a href="javascript:void(0)" class="nav-menu__link">Cursos</a>
          <ul class="nav-submenu scroll-sm">
             <li class="nav-submenu__item">
-                <a href="course.html" class="nav-submenu__link hover-bg-neutral-30"> Course Grid View</a>
+                <a href="cursos#docentes" class="nav-submenu__link hover-bg-neutral-30"> Docentes Ecuador</a>
             </li>
             <li class="nav-submenu__item">
-                <a href="course-list-view.html" class="nav-submenu__link hover-bg-neutral-30"> Course List View</a>
+                <a href="cursos#universidad" class="nav-submenu__link hover-bg-neutral-30"> Ingreso Universitario</a>
             </li>
-            <li class="nav-submenu__item">
-                <a href="course-details.html" class="nav-submenu__link hover-bg-neutral-30"> Course Details</a>
-            </li>
+            
         </ul>
     </li>
     <li class="nav-menu__item has-submenu">
         <a href="javascript:void(0)" class="nav-menu__link">Blog</a>
          <ul class="nav-submenu scroll-sm">
             <li class="nav-submenu__item">
-                <a href="blog.html" class="nav-submenu__link hover-bg-neutral-30"> Notícias</a>
+                <a href="#" class="nav-submenu__link hover-bg-neutral-30"> Notícias</a>
             </li>
         </ul>
     </li>
     <li class="nav-menu__item">
-        <a href="contact.html" class="nav-menu__link">Contactos</a>
+        <a href="contactos" class="nav-menu__link">Contactos</a>
     </li>
 </ul>
 
@@ -103,7 +99,8 @@
         <i class="ph-bold ph-squares-four"></i>
     </span>
     <select class="js-example-basic-single border-0" name="state">
-         <option value="1">DocentSuit</option>
+    <option value="1" selected disabled>Educación</option>
+        <option value="1">DocentSuit</option>
         <option value="1">PreUniversitario</option>
         <option value="1">Planificaciones</option>
     </select>
@@ -124,7 +121,7 @@
             <div class="header-content-wrapper flex-align flex-grow-1">
                 <!-- Logo Start -->
                 <div class="logo">
-                    <a href="index.html" class="link">
+                    <a href="/" class="link">
                         <img src="assets/images/logo/logo.png" alt="Logo">
                     </a>
                 </div>
@@ -154,22 +151,22 @@
         <a href="javascript:void(0)" class="nav-menu__link">Inicio</a>
         <ul class="nav-submenu scroll-sm">
             <li class="nav-submenu__item">
-                <a href="index.html" class="nav-submenu__link hover-bg-neutral-30">Nosotros</a>
+                <a href="nosotros" class="nav-submenu__link hover-bg-neutral-30">Nosotros</a>
             </li>
             <li class="nav-submenu__item">
-                <a href="index-2.html" class="nav-submenu__link hover-bg-neutral-30">Pregúntas</a>
+                <a href="preguntas" class="nav-submenu__link hover-bg-neutral-30">Pregúntas</a>
             </li>
            
         </ul>
     </li>
     <li class="nav-menu__item has-submenu">
-        <a href="javascript:void(0)" class="nav-menu__link">Cúrsos</a>
+        <a href="javascript:void(0)" class="nav-menu__link">Cursos</a>
          <ul class="nav-submenu scroll-sm">
             <li class="nav-submenu__item">
-                <a href="course.html" class="nav-submenu__link hover-bg-neutral-30">Docentes Ecuador</a>
+                <a href="cursos#docentes" class="nav-submenu__link hover-bg-neutral-30">Docentes Ecuador</a>
             </li>
             <li class="nav-submenu__item">
-                <a href="#" class="nav-submenu__link hover-bg-neutral-30"> Ingreso Universitario</a>
+                <a href="cursos#universidad" class="nav-submenu__link hover-bg-neutral-30"> Ingreso Universitario</a>
             </li>
         </ul>
     </li>
@@ -178,12 +175,12 @@
         <a href="javascript:void(0)" class="nav-menu__link">Blog</a>
          <ul class="nav-submenu scroll-sm">
             <li class="nav-submenu__item">
-                <a href="blog.html" class="nav-submenu__link hover-bg-neutral-30"> Notícias</a>
+                <a href="#" class="nav-submenu__link hover-bg-neutral-30"> Notícias</a>
             </li>
         </ul>
     </li>
     <li class="nav-menu__item">
-        <a href="contact.html" class="nav-menu__link">Contactos</a>
+        <a href="contactos" class="nav-menu__link">Contactos</a>
     </li>
 </ul>
                 </div>
@@ -193,12 +190,12 @@
             <!-- Header Right start -->
             <div class="header-right flex-align">
                 <form action="#" class="search-form position-relative d-xl-block d-none">
-                    <input type="text" class="common-input rounded-pill bg-main-25 pe-44 border-neutral-30" placeholder="Search...">
+                    <input type="text" class="common-input rounded-pill bg-main-25 pe-44 border-neutral-30" placeholder="Buscar...">
                     <button type="submit" class="w-36 h-36 bg-main-600 hover-bg-main-700 rounded-circle flex-center text-md text-white position-absolute top-50 translate-middle-y inset-inline-end-0 me-8">
                         <i class="ph-bold ph-magnifying-glass"></i>
                     </button>
                 </form>
-                <a href="sign-in.html" class="info-action w-52 h-52 bg-main-25 hover-bg-main-600 border border-neutral-30 rounded-circle flex-center text-2xl text-neutral-500 hover-text-white hover-border-main-600">
+                <a href="plataformas" class="info-action w-52 h-52 bg-main-25 hover-bg-main-600 border border-neutral-30 rounded-circle flex-center text-2xl text-neutral-500 hover-text-white hover-border-main-600">
                     <i class="ph ph-user-circle"></i>
                 </a>
                 <button type="button" class="toggle-mobileMenu d-lg-none text-neutral-200 flex-center">
